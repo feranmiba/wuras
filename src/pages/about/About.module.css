@@ -1,0 +1,26 @@
+.root {
+  height: 90vh;
+  text-align: left;
+  padding: 0 10rem;
+  font-size: 1.5rem;
+  background-color: #282b2d;
+  color: #a9a8b2;
+  line-height: 1.7;
+}
+@media (max-width: 1000px) {
+  .root {
+   width: 100%;
+   padding: 0 5rem;
+  } 
+ }
+@media (max-width: 600px) {
+ .root {
+  width: 100%;
+  padding: 0 2rem;
+ } 
+}
+
+.links {
+  font-size: 1.5rem;
+  font-weight: bold;
+}

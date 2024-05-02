@@ -1,0 +1,41 @@
+.root {
+  display: flex;
+  place-content: space-around;
+  background-color: #242727;
+  color: #a9a8b2;
+  padding: 1.5rem;
+  align-items: center;
+  height: 10vh;
+}
+.nav {
+  display: flex;
+  place-content: space-around;
+}
+li {
+  list-style: none;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.widh {
+  width: 10%;
+}
+
+@media (max-width: 700px) {
+  .widh {
+    width: 20%;
+  } 
+}
+@media (max-width: 650px) {
+  .widh {
+    width: 20%;
+  } 
+}
+@media (max-width: 500px) {
+  .widh {
+    width: 100%;
+  }
+}

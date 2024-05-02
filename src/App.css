@@ -1,0 +1,21 @@
+.dark div {
+    background-color: rgb(253, 241, 241);
+    color: #2b2626;
+}
+.dark {
+    background-color: rgb(253, 241, 241);
+}
+.dark div .root,
+.dark div .mobileroot {
+    background-color: #f8eaea;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
+}
+.dark div .mobile {
+    background-color: #f8eaea; 
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
+    color: #2b2626;
+}
+.dark div .widh,
+.dark div .phew {
+    background-color: #f8eaea;
+}

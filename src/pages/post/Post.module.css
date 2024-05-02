@@ -1,0 +1,15 @@
+.root {
+  font-size: 1.5rem !important;
+  background-color: #282b2d;
+  color: #a9a8b2;
+  height: 90vh;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 1.5rem;
+  justify-content: space-around;
+}
+.item {
+  margin: 2rem;
+}

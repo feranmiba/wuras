@@ -1,0 +1,58 @@
+.root {
+  display: grid;
+  place-content: center;
+  height: 90vh;
+  text-align: center;
+  background-color: #282b2d;
+  color: #a9a8b2;
+}
+.icons {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h1 {
+  font-size: 3rem;
+}
+span {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.slider {
+  margin-top: 10%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 40%;
+  overflow: auto;
+}
+.slide {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  animation: slide-right-to-left 5s linear infinite;
+}
+.content {
+  display: flex;
+  margin: 0;
+  font-size: 30px;
+}
+
+.content > * {
+  margin-right: 2rem;
+}
+.slider::-webkit-scrollbar {
+  display: none;
+}
+@keyframes slide-right-to-left {
+  from {
+    transform: translateX(50);
+  }
+  to {
+    transform: translateX(-10%);
+  }
+}
